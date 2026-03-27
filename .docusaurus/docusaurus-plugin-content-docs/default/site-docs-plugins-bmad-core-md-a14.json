@@ -1,0 +1,29 @@
+{
+  "id": "plugins/bmad-core",
+  "title": "bmad-core",
+  "description": "Foundation plugin with setup, help, brainstorming, and editorial reviews",
+  "source": "@site/docs/plugins/bmad-core.md",
+  "sourceDirName": "plugins",
+  "slug": "/plugins/bmad-core",
+  "permalink": "/mosaic-docs/docs/plugins/bmad-core",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MousaSoutari/mosaic-docs/tree/main/docs/plugins/bmad-core.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "bmad-core",
+    "description": "Foundation plugin with setup, help, brainstorming, and editorial reviews"
+  },
+  "sidebar": "pluginsSidebar",
+  "previous": {
+    "title": "Plugin Overview",
+    "permalink": "/mosaic-docs/docs/plugins/overview"
+  },
+  "next": {
+    "title": "bmad-bmm",
+    "permalink": "/mosaic-docs/docs/plugins/bmad-bmm"
+  }
+}

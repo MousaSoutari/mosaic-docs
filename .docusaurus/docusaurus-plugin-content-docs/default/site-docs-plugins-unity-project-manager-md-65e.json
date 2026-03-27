@@ -1,0 +1,25 @@
+{
+  "id": "plugins/unity-project-manager",
+  "title": "Unity Project Manager",
+  "description": "MCP server for managing Unity projects without Unity running",
+  "source": "@site/docs/plugins/unity-project-manager.md",
+  "sourceDirName": "plugins",
+  "slug": "/plugins/unity-project-manager",
+  "permalink": "/mosaic-docs/docs/plugins/unity-project-manager",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MousaSoutari/mosaic-docs/tree/main/docs/plugins/unity-project-manager.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9,
+    "title": "Unity Project Manager",
+    "description": "MCP server for managing Unity projects without Unity running"
+  },
+  "sidebar": "pluginsSidebar",
+  "previous": {
+    "title": "bmad-bmb",
+    "permalink": "/mosaic-docs/docs/plugins/bmad-bmb"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "concepts/agents",
+  "title": "Agents",
+  "description": "AI agent personas with specialized expertise",
+  "source": "@site/docs/concepts/agents.md",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/agents",
+  "permalink": "/mosaic-docs/docs/concepts/agents",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MousaSoutari/mosaic-docs/tree/main/docs/concepts/agents.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Agents",
+    "description": "AI agent personas with specialized expertise"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Architecture",
+    "permalink": "/mosaic-docs/docs/getting-started/architecture"
+  },
+  "next": {
+    "title": "Commands",
+    "permalink": "/mosaic-docs/docs/concepts/commands"
+  }
+}

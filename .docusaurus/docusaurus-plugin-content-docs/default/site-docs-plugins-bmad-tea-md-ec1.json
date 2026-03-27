@@ -1,0 +1,29 @@
+{
+  "id": "plugins/bmad-tea",
+  "title": "bmad-tea",
+  "description": "Test Engineering and Architecture for ATDD, CI/CD, and test strategy",
+  "source": "@site/docs/plugins/bmad-tea.md",
+  "sourceDirName": "plugins",
+  "slug": "/plugins/bmad-tea",
+  "permalink": "/mosaic-docs/docs/plugins/bmad-tea",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MousaSoutari/mosaic-docs/tree/main/docs/plugins/bmad-tea.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "title": "bmad-tea",
+    "description": "Test Engineering and Architecture for ATDD, CI/CD, and test strategy"
+  },
+  "sidebar": "pluginsSidebar",
+  "previous": {
+    "title": "bmad-gds",
+    "permalink": "/mosaic-docs/docs/plugins/bmad-gds"
+  },
+  "next": {
+    "title": "bmad-cis",
+    "permalink": "/mosaic-docs/docs/plugins/bmad-cis"
+  }
+}

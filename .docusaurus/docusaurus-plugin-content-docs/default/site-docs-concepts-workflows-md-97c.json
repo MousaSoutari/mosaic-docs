@@ -1,0 +1,25 @@
+{
+  "id": "concepts/workflows",
+  "title": "Workflows",
+  "description": "Multi-step processes with step files",
+  "source": "@site/docs/concepts/workflows.md",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/workflows",
+  "permalink": "/mosaic-docs/docs/concepts/workflows",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MousaSoutari/mosaic-docs/tree/main/docs/concepts/workflows.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Workflows",
+    "description": "Multi-step processes with step files"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Commands",
+    "permalink": "/mosaic-docs/docs/concepts/commands"
+  }
+}

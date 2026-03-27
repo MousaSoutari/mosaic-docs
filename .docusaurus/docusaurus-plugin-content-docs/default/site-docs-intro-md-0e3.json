@@ -1,0 +1,26 @@
+{
+  "id": "intro",
+  "title": "Mosaic BMAD Plugins",
+  "description": "AI-driven development methodology for Claude Code",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/mosaic-docs/docs/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MousaSoutari/mosaic-docs/tree/main/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "slug": "/",
+    "title": "Mosaic BMAD Plugins",
+    "description": "AI-driven development methodology for Claude Code"
+  },
+  "sidebar": "docsSidebar",
+  "next": {
+    "title": "Installation",
+    "permalink": "/mosaic-docs/docs/getting-started/installation"
+  }
+}

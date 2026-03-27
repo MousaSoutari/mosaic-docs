@@ -1,0 +1,29 @@
+{
+  "id": "concepts/commands",
+  "title": "Commands",
+  "description": "Slash commands for workflows and tools",
+  "source": "@site/docs/concepts/commands.md",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/commands",
+  "permalink": "/mosaic-docs/docs/concepts/commands",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MousaSoutari/mosaic-docs/tree/main/docs/concepts/commands.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Commands",
+    "description": "Slash commands for workflows and tools"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Agents",
+    "permalink": "/mosaic-docs/docs/concepts/agents"
+  },
+  "next": {
+    "title": "Workflows",
+    "permalink": "/mosaic-docs/docs/concepts/workflows"
+  }
+}

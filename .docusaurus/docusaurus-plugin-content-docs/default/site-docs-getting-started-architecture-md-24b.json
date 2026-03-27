@@ -1,0 +1,29 @@
+{
+  "id": "getting-started/architecture",
+  "title": "Architecture",
+  "description": "How Mosaic BMAD plugins are structured",
+  "source": "@site/docs/getting-started/architecture.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/architecture",
+  "permalink": "/mosaic-docs/docs/getting-started/architecture",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MousaSoutari/mosaic-docs/tree/main/docs/getting-started/architecture.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Architecture",
+    "description": "How Mosaic BMAD plugins are structured"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Quick Start",
+    "permalink": "/mosaic-docs/docs/getting-started/quick-start"
+  },
+  "next": {
+    "title": "Agents",
+    "permalink": "/mosaic-docs/docs/concepts/agents"
+  }
+}

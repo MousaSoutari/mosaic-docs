@@ -1,0 +1,29 @@
+{
+  "id": "plugins/bmad-bmb",
+  "title": "bmad-bmb",
+  "description": "BMAD Builder for creating agents, workflows, and modules",
+  "source": "@site/docs/plugins/bmad-bmb.md",
+  "sourceDirName": "plugins",
+  "slug": "/plugins/bmad-bmb",
+  "permalink": "/mosaic-docs/docs/plugins/bmad-bmb",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MousaSoutari/mosaic-docs/tree/main/docs/plugins/bmad-bmb.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "bmad-bmb",
+    "description": "BMAD Builder for creating agents, workflows, and modules"
+  },
+  "sidebar": "pluginsSidebar",
+  "previous": {
+    "title": "bmad-edu",
+    "permalink": "/mosaic-docs/docs/plugins/bmad-edu"
+  },
+  "next": {
+    "title": "Unity Project Manager",
+    "permalink": "/mosaic-docs/docs/plugins/unity-project-manager"
+  }
+}

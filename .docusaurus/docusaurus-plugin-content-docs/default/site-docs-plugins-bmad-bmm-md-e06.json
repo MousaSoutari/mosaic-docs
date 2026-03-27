@@ -1,0 +1,29 @@
+{
+  "id": "plugins/bmad-bmm",
+  "title": "bmad-bmm",
+  "description": "Business Method Module for product development lifecycle",
+  "source": "@site/docs/plugins/bmad-bmm.md",
+  "sourceDirName": "plugins",
+  "slug": "/plugins/bmad-bmm",
+  "permalink": "/mosaic-docs/docs/plugins/bmad-bmm",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MousaSoutari/mosaic-docs/tree/main/docs/plugins/bmad-bmm.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "bmad-bmm",
+    "description": "Business Method Module for product development lifecycle"
+  },
+  "sidebar": "pluginsSidebar",
+  "previous": {
+    "title": "bmad-core",
+    "permalink": "/mosaic-docs/docs/plugins/bmad-core"
+  },
+  "next": {
+    "title": "bmad-gds",
+    "permalink": "/mosaic-docs/docs/plugins/bmad-gds"
+  }
+}
