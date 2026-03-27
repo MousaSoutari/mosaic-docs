@@ -4,6 +4,10 @@ title: bmad-bmb
 description: BMAD Builder for creating agents, workflows, and modules
 ---
 
+:::info Coming Soon
+The bmad-bmb module is planned but not yet available in the current BMAD Method release. The agents and commands listed below represent the planned functionality.
+:::
+
 # bmad-bmb
 
 **BMAD Builder** -- tools for creating, editing, and validating BMAD agents, workflows, and modules. This is the meta-module for extending the BMAD framework itself.

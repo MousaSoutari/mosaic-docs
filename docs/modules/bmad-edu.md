@@ -4,6 +4,10 @@ title: bmad-edu
 description: Education module for Unity course creation and IET tutorials
 ---
 
+:::info Instructor Profile Required
+Most edu commands are only installed when you select the **Instructor** profile during setup. The 3 edu agents and `/edu-capture` command are available in both Developer and Instructor profiles.
+:::
+
 # bmad-edu
 
 **BMAD Education Module** -- a two-mode Unity development module. Normal mode provides standard BMAD-powered development. Instructor mode enables complete course creation with screenshots, GIFs, syllabus, labs, quizzes, tutorials, and Essentials Pathway content.

@@ -1,7 +1,7 @@
 {
   "id": "modules/bmad-core",
   "title": "bmad-core",
-  "description": "Foundation module with setup, help, brainstorming, and editorial reviews",
+  "description": "Foundation module with setup, help, brainstorming, reviews, and workflow orchestration",
   "source": "@site/docs/modules/bmad-core.md",
   "sourceDirName": "modules",
   "slug": "/modules/bmad-core",
@@ -15,7 +15,7 @@
   "frontMatter": {
     "sidebar_position": 2,
     "title": "bmad-core",
-    "description": "Foundation module with setup, help, brainstorming, and editorial reviews"
+    "description": "Foundation module with setup, help, brainstorming, reviews, and workflow orchestration"
   },
   "sidebar": "modulesSidebar",
   "previous": {

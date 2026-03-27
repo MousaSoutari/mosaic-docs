@@ -10,15 +10,15 @@ Mosaic BMAD ships as 7 focused modules. The installer sets up `bmad-core` plus a
 
 ## Module Comparison
 
-| Module | Agents | Commands | Primary Use Case |
-|--------|--------|----------|------------------|
-| [bmad-core](./bmad-core) | 1 | 11 | Foundation -- setup, help, brainstorming, reviews |
-| [bmad-bmm](./bmad-bmm) | 9 | 32 | Product development -- PRDs, sprints, stories |
-| [bmad-gds](./bmad-gds) | 7 | 31 | Game development -- GDD, architecture, playtesting |
-| [bmad-cis](./bmad-cis) | 6 | 10 | Creative work -- innovation, design thinking, storytelling |
-| [bmad-bmb](./bmad-bmb) | 3 | 15 | BMAD framework -- create agents, workflows, modules |
-| [bmad-tea](./bmad-tea) | 1 | 10 | Test engineering -- ATDD, CI/CD, test architecture |
-| [bmad-edu](./bmad-edu) | 3 | 24 | Education -- courses, tutorials, IET pathways |
+| Module | Agents | Commands | Primary Use Case | Status |
+|--------|--------|----------|------------------|--------|
+| [bmad-core](./bmad-core) | 1 | 11 | Foundation -- setup, help, brainstorming, reviews | Available |
+| [bmad-bmm](./bmad-bmm) | 9 | 32 | Product development -- PRDs, sprints, stories | Available |
+| [bmad-gds](./bmad-gds) | 7 | 31 | Game development -- GDD, architecture, playtesting | Available |
+| [bmad-cis](./bmad-cis) | 6 | 10 | Creative work -- innovation, design thinking, storytelling | Coming Soon |
+| [bmad-bmb](./bmad-bmb) | 3 | 15 | BMAD framework -- create agents, workflows, modules | Coming Soon |
+| [bmad-tea](./bmad-tea) | 1 | 10 | Test engineering -- ATDD, CI/CD, test architecture | Coming Soon |
+| [bmad-edu](./bmad-edu) | 3 | 24 | Education -- courses, tutorials, IET pathways | Partial (Instructor profile) |
 
 **Totals:** 30 agents, 133 commands
 

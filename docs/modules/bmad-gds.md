@@ -14,67 +14,72 @@ Installed by: `npx @mousasoutari/mosaic-setup install --modules gds`
 
 | Command | Name | Persona | Specialty |
 |---------|------|---------|-----------|
-| `/bmad-agent-gds-game-designer` | Samus Shepard | Game Designer | Game mechanics, systems, GDDs |
-| `/bmad-agent-gds-game-dev` | Link Freeman | Game Developer | Unity/Unreal/Godot implementation |
-| `/bmad-agent-gds-game-architect` | Cloud Dragonborn | Game Architect | ECS, networking, performance |
-| `/bmad-agent-gds-game-qa` | GLaDOS | Game QA | Testing, automation, bug hunting |
-| `/bmad-agent-gds-game-scrum-master` | Max | Scrum Master | Sprint planning, velocity, burndown |
-| `/bmad-agent-gds-game-solo-dev` | Indie | Solo Dev | Full-stack indie game development |
-| `/bmad-agent-gds-tech-writer` | Paige | Tech Writer | Game documentation, wikis |
+| `/gds-agent-game-designer` | Samus Shepard | Game Designer | Game mechanics, systems, GDDs |
+| `/gds-agent-game-dev` | Link Freeman | Game Developer | Unity/Unreal/Godot implementation |
+| `/gds-agent-game-architect` | Cloud Dragonborn | Game Architect | ECS, networking, performance |
+| `/gds-agent-game-qa` | GLaDOS | Game QA | Testing, automation, bug hunting |
+| `/gds-agent-game-scrum-master` | Max | Scrum Master | Sprint planning, velocity, burndown |
+| `/gds-agent-game-solo-dev` | Indie | Solo Dev | Full-stack indie game development |
+| `/gds-agent-tech-writer` | Paige | Tech Writer | Game documentation, wikis |
 
-## Commands by Namespace (31)
+## Commands by Namespace (36)
 
-### Preproduction (3)
+### Preproduction (4)
 | Command | Description |
 |---------|-------------|
-| `/bmad-gds-brainstorm-game` | Brainstorm game concepts and mechanics |
-| `/bmad-gds-create-game-brief` | Create a concise game brief (elevator pitch, pillars, audience) |
-| `/bmad-gds-game-brief` | Review and refine an existing game brief |
+| `/gds-brainstorm-game` | Brainstorm game concepts and mechanics |
+| `/gds-create-game-brief` | Create a concise game brief (elevator pitch, pillars, audience) |
+| `/gds-game-brief` | Review and refine an existing game brief |
+| `/gds-domain-research` | Game industry domain research |
 
-### Design (3)
+### Design (4)
 | Command | Description |
 |---------|-------------|
-| `/bmad-gds-create-gdd` | Full game design document with systems, loops, and progression |
-| `/bmad-gds-gdd` | Review and iterate on an existing GDD |
-| `/bmad-gds-narrative` | Narrative design -- story, characters, world-building |
+| `/gds-create-gdd` | Full game design document with systems, loops, and progression |
+| `/gds-gdd` | Review and iterate on an existing GDD |
+| `/gds-create-narrative` | Narrative design -- story, characters, world-building |
+| `/gds-create-ux-design` | Game UX/UI design |
 
 ### Technical (2)
 | Command | Description |
 |---------|-------------|
-| `/bmad-gds-game-architecture` | Game architecture document (ECS, networking, asset pipeline) |
-| `/bmad-gds-generate-project-context` | Generate project context for onboarding |
+| `/gds-game-architecture` | Game architecture document (ECS, networking, asset pipeline) |
+| `/gds-generate-project-context` | Generate project context for onboarding |
 
-### Production (7)
+### Production (9)
 | Command | Description |
 |---------|-------------|
-| `/bmad-gds-dev-story` | Implement a game development story |
-| `/bmad-gds-create-story` | Create a new story from GDD requirements |
-| `/bmad-gds-code-review` | Game code review with performance focus |
-| `/bmad-gds-sprint-planning` | Sprint planning for game milestones |
-| `/bmad-gds-sprint-status` | Sprint progress and milestone tracking |
-| `/bmad-gds-retrospective` | Sprint retrospective |
-| `/bmad-gds-correct-course` | Course correction for off-track sprints |
+| `/gds-create-epics-and-stories` | Break GDD into epics and stories |
+| `/gds-check-implementation-readiness` | Verify stories are ready for development |
+| `/gds-dev-story` | Implement a game development story |
+| `/gds-create-story` | Create a new story from GDD requirements |
+| `/gds-code-review` | Game code review with performance focus |
+| `/gds-sprint-planning` | Sprint planning for game milestones |
+| `/gds-sprint-status` | Sprint progress and milestone tracking |
+| `/gds-retrospective` | Sprint retrospective |
+| `/gds-correct-course` | Course correction for off-track sprints |
 
-### Game Testing (6)
+### Game Testing (7)
 | Command | Description |
 |---------|-------------|
-| `/bmad-gds-gametest-test-design` | Risk-based game test design |
-| `/bmad-gds-gametest-framework` | Set up game testing framework |
-| `/bmad-gds-gametest-automate` | Automate game test execution |
-| `/bmad-gds-gametest-performance` | Performance testing and profiling |
-| `/bmad-gds-gametest-playtest-plan` | Create a structured playtest plan |
-| `/bmad-gds-gametest-test-review` | Review and improve test coverage |
+| `/gds-test-design` | Risk-based game test design |
+| `/gds-test-framework` | Set up game testing framework |
+| `/gds-test-automate` | Automate game test execution |
+| `/gds-performance-test` | Performance testing and profiling |
+| `/gds-playtest-plan` | Create a structured playtest plan |
+| `/gds-test-review` | Review and improve test coverage |
+| `/gds-e2e-scaffold` | E2E testing infrastructure scaffold |
 
 ### Quick Flow (2)
 | Command | Description |
 |---------|-------------|
-| `/bmad-gds-quick-spec` | Rapid game spec -- brief to GDD in one pass |
-| `/bmad-gds-quick-dev` | Rapid game implementation |
+| `/gds-quick-spec` | Rapid game spec -- brief to GDD in one pass |
+| `/gds-quick-dev` | Rapid game implementation |
 
 ### Utility (1)
 | Command | Description |
 |---------|-------------|
-| `/bmad-gds-document-project` | Generate game project documentation |
+| `/gds-document-project` | Generate game project documentation |
 
 ### Agents (7)
 All 7 agent commands listed in the agents table above.

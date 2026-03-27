@@ -9,9 +9,9 @@ import styles from './index.module.css';
 
 const stats = [
   { label: 'Modules', value: '7' },
-  { label: 'Agents', value: '30' },
-  { label: 'Commands', value: '133' },
-  { label: 'Workflows', value: '86+' },
+  { label: 'Agents', value: '19' },
+  { label: 'Commands', value: '88+' },
+  { label: 'Workflows', value: '72+' },
 ];
 
 const modules = [
@@ -19,8 +19,8 @@ const modules = [
     name: 'bmad-core',
     emoji: '🧙',
     description: 'Foundation module with setup, help, brainstorming, reviews, and workflow orchestration.',
-    agents: 1,
-    commands: 11,
+    agents: 0,
+    commands: 10,
   },
   {
     name: 'bmad-bmm',
@@ -34,7 +34,7 @@ const modules = [
     emoji: '🎮',
     description: 'Game development studio — GDD creation, game architecture, playtesting, automated game QA.',
     agents: 7,
-    commands: 31,
+    commands: 36,
   },
   {
     name: 'bmad-cis',
@@ -165,7 +165,7 @@ function WorkflowSection() {
           </div>
           <div className="col col--4 text--center">
             <Heading as="h3">2. Setup</Heading>
-            <code>/bmad-setup</code>
+            <code>/bmad-init</code>
             <p style={{marginTop: '0.5rem'}}>Initialize your project with config, output dirs, and CLAUDE.md rules.</p>
           </div>
           <div className="col col--4 text--center">
@@ -221,7 +221,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title="AI-Driven Development for Claude Code"
-      description="30 specialized agents, 133 commands, and 86+ workflows for Claude Code. Product management, game development, testing, creative intelligence, and education.">
+      description="19 specialized agents, 88+ commands, and 72+ workflows for Claude Code. Product management, game development, testing, creative intelligence, and education.">
       <HomepageHeader />
       <main>
         <StatsSection />

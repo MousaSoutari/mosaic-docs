@@ -56,7 +56,7 @@ your-project/
 ## Config Resolution
 
 Agents load config in priority order:
-1. **Project config** -- `_bmad/config.yaml` (user's custom settings, created by `/bmad-setup`)
+1. **Project config** -- `_bmad/config.yaml` (user's custom settings, created by `/bmad-init`)
 2. **Module defaults** -- defaults bundled with each BMAD module
 
 This means you configure once per project, and all agents respect your settings.

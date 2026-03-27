@@ -4,6 +4,10 @@ title: bmad-tea
 description: Test Engineering and Architecture for ATDD, CI/CD, and test strategy
 ---
 
+:::info Coming Soon
+The bmad-tea module is planned but not yet available in the current BMAD Method release. The agents and commands listed below represent the planned functionality.
+:::
+
 # bmad-tea
 
 **BMAD Test Engineering and Architecture** -- master test architecture with ATDD, CI/CD quality gates, test framework scaffolding, risk-based test design, traceability, NFR assessment, and interactive testing education.
