@@ -1,0 +1,29 @@
+{
+  "id": "modules/bmad-gds",
+  "title": "bmad-gds",
+  "description": "Game Dev Studio for complete game development lifecycle",
+  "source": "@site/docs/modules/bmad-gds.md",
+  "sourceDirName": "modules",
+  "slug": "/modules/bmad-gds",
+  "permalink": "/mosaic-docs/docs/modules/bmad-gds",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MousaSoutari/mosaic-docs/tree/main/docs/modules/bmad-gds.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "bmad-gds",
+    "description": "Game Dev Studio for complete game development lifecycle"
+  },
+  "sidebar": "modulesSidebar",
+  "previous": {
+    "title": "bmad-bmm",
+    "permalink": "/mosaic-docs/docs/modules/bmad-bmm"
+  },
+  "next": {
+    "title": "bmad-tea",
+    "permalink": "/mosaic-docs/docs/modules/bmad-tea"
+  }
+}

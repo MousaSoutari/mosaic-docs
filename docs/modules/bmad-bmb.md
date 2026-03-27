@@ -6,14 +6,9 @@ description: BMAD Builder for creating agents, workflows, and modules
 
 # bmad-bmb
 
-**BMAD Builder** -- tools for creating, editing, and validating BMAD agents, workflows, and modules. This is the meta-plugin for extending the BMAD framework itself.
+**BMAD Builder** -- tools for creating, editing, and validating BMAD agents, workflows, and modules. This is the meta-module for extending the BMAD framework itself.
 
-## Installation
-
-~~~bash
-/plugin install bmad-core@mosaic-plugins
-/plugin install bmad-bmb@mosaic-plugins
-~~~
+Installed by: `npx @mousasoutari/mosaic-setup install --modules bmb`
 
 ## Agents (3)
 
@@ -70,9 +65,8 @@ Design processes with:
 
 ### Custom Modules
 Package agents and workflows into:
-- Self-contained plugin structure
+- Self-contained module structure
 - Vendored core dependencies
-- Plugin metadata and marketplace listing
 - Documentation and examples
 
 ## Validation

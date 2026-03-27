@@ -1,78 +1,106 @@
 ---
 sidebar_position: 1
 title: Installation
-description: How to install Mosaic BMAD plugins in Claude Code
+description: How to install Mosaic BMAD in your project
 ---
 
 # Installation
 
 ## Prerequisites
 
-- [Claude Code](https://claude.ai/claude-code) installed and authenticated
-- Node.js 18+ (for MCP servers)
+- **Node.js 18+** -- required for the installer and MCP servers
+- **Claude Code** (or Cursor / Windsurf) -- your AI-powered editor
+- **Unity Hub + Editor** -- for Unity-based workflows (bmad-gds, bmad-edu)
+- **Git** -- version control
 
-## Register the Marketplace
+## Quick Install
 
-The Mosaic marketplace is automatically discovered if configured in your Claude Code settings.
-
-Add to `~/.claude/settings.json`:
-~~~json
-{
-  "extraKnownMarketplaces": {
-    "mosaic-plugins": {
-      "source": {
-        "source": "github",
-        "repo": "MousaSoutari/mosaic-plugins-marketplace"
-      }
-    }
-  }
-}
-~~~
-
-## Install Plugins
-
-Always install `bmad-core` first:
 ~~~bash
-/plugin install bmad-core@mosaic-plugins
+cd your-project
+npx @mousasoutari/mosaic-setup
 ~~~
 
-Then install the modules you need:
+That is it. The installer handles everything interactively.
+
+## For GitHub Packages Access
+
+The package is hosted on GitHub Packages. Set up authentication once:
+
 ~~~bash
-# For product teams
-/plugin install bmad-bmm@mosaic-plugins
+# Add to ~/.npmrc (one time)
+echo "@mousasoutari:registry=https://npm.pkg.github.com" >> ~/.npmrc
+echo "//npm.pkg.github.com/:_authToken=YOUR_GITHUB_TOKEN" >> ~/.npmrc
 
-# For game developers
-/plugin install bmad-gds@mosaic-plugins
-
-# For instructors
-/plugin install bmad-edu@mosaic-plugins
-
-# For test engineers
-/plugin install bmad-tea@mosaic-plugins
-
-# For creative teams
-/plugin install bmad-cis@mosaic-plugins
-
-# For BMAD developers
-/plugin install bmad-bmb@mosaic-plugins
+# Then install in any project
+npx @mousasoutari/mosaic-setup
 ~~~
 
-## Initialize Your Project
+Replace `YOUR_GITHUB_TOKEN` with a GitHub personal access token that has `read:packages` scope.
 
-After installing, run in any project:
+## What the Installer Does
+
+The installer runs 7 steps:
+
+1. **Checks system requirements** -- verifies Node.js, Unity, Claude Code, Git, and Blender are available
+2. **Asks for profile** -- Developer or Instructor mode
+3. **Installs BMAD Method** -- runs `npx bmad-method install` to set up the standard BMAD framework
+4. **Installs Mosaic custom agents, skills, hooks** -- adds Instructor, IET Builder, Code Pedagogy agents and custom workflows
+5. **Sets up MCP servers** -- configures Unity Project Manager and Blender MCP
+6. **Creates project configuration** -- writes `.mosaic/config.json` and `.mcp.json`
+7. **Shows getting-started guide** -- prints next steps based on your selected profile
+
+## CLI Options
+
 ~~~bash
-/bmad-setup
+mosaic-setup install                    # Interactive
+mosaic-setup install --yes              # Automated with defaults
+mosaic-setup install --mode instructor  # Instructor profile
+mosaic-setup install --modules gds,edu  # Specific modules
+mosaic-setup install --skip-bmad        # Skip BMAD (already installed)
+mosaic-setup doctor                     # Health check
+mosaic-setup doctor --fix               # Auto-fix issues
+mosaic-setup update                     # Update everything
 ~~~
 
-This creates:
-- `_bmad/config.yaml` -- your project config (name, language, output paths)
-- `_bmad-output/` -- where all artifacts are saved
-- CLAUDE.md section with BMAD workflow rules
+## What Gets Created
+
+~~~
+your-project/
+├── _bmad/                    # BMAD Method (standard)
+│   ├── core/, bmm/, gds/    # Selected modules
+│   └── mosaic/               # Mosaic custom additions
+│       ├── agents/           # Instructor, IET Builder, Code Pedagogy
+│       └── workflows/        # Course definition, build, pathway, tutorial
+├── _bmad-output/             # All generated artifacts
+├── .claude/
+│   ├── commands/             # Custom slash commands (15)
+│   ├── skills/               # Custom skills (6)
+│   └── settings.local.json   # Hooks
+├── .mosaic/
+│   ├── config.json           # Installation config
+│   └── mcp-servers/          # Unity Project Manager MCP
+└── .mcp.json                 # MCP server configuration
+~~~
 
 ## Verify Installation
 
 ~~~bash
-/bmad-help
+claude                # Open Claude Code in your project
+/bmad-help            # Should show available workflows and next steps
 ~~~
 
-You should see available workflows and next-step recommendations.
+You can also run the health check at any time:
+
+~~~bash
+npx @mousasoutari/mosaic-setup doctor
+~~~
+
+## Updating
+
+To update BMAD Method and Mosaic additions to the latest version:
+
+~~~bash
+npx @mousasoutari/mosaic-setup update
+~~~
+
+This updates agents, workflows, skills, and hooks while preserving your project configuration.

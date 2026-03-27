@@ -6,7 +6,7 @@ description: MCP server for managing Unity projects without Unity running
 
 # Unity Project Manager
 
-A standalone MCP server that creates and manages Unity projects without requiring the Unity Editor to be running. Ships with the `bmad-edu` plugin and is automatically available when that plugin is active.
+A standalone MCP server that creates and manages Unity projects without requiring the Unity Editor to be running. Installed by `npx @mousasoutari/mosaic-setup` and configured automatically in `.mcp.json`.
 
 ## Overview
 

@@ -6,7 +6,7 @@ description: Slash commands for workflows and tools
 
 # Commands
 
-Commands are slash commands that trigger specific workflows. They are auto-discovered from the plugin's `commands/` directory.
+Commands are slash commands that trigger specific workflows. They are auto-discovered from the `commands/` directory in your project.
 
 ## Command Types
 
@@ -36,7 +36,7 @@ One-shot tools:
 
 ## Namespaced Commands
 
-Commands are organized into namespaces within each plugin:
+Commands are organized into namespaces within each module:
 
 | Namespace | Example | Purpose |
 |-----------|---------|---------|
@@ -58,6 +58,6 @@ Commands are organized into namespaces within each plugin:
 
 ## Command Naming Convention
 
-Commands follow the pattern: `/{plugin}-{namespace}-{action}` or `/{plugin}-{action}`.
+Commands follow the pattern: `/{module}-{namespace}-{action}` or `/{module}-{action}`.
 
 Agent commands follow: `/bmad-agent-{module}-{name}`.

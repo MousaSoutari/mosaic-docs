@@ -8,17 +8,17 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
 const stats = [
-  { label: 'Plugins', value: '7' },
+  { label: 'Modules', value: '7' },
   { label: 'Agents', value: '30' },
   { label: 'Commands', value: '133' },
   { label: 'Workflows', value: '86+' },
 ];
 
-const plugins = [
+const modules = [
   {
     name: 'bmad-core',
     emoji: '🧙',
-    description: 'Foundation plugin with setup, help, brainstorming, reviews, and workflow orchestration.',
+    description: 'Foundation module with setup, help, brainstorming, reviews, and workflow orchestration.',
     agents: 1,
     commands: 11,
   },
@@ -79,8 +79,8 @@ function HomepageHeader() {
           <Link className="button button--primary button--lg" to="/docs/getting-started/installation">
             Get Started
           </Link>
-          <Link className="button button--secondary button--lg" to="/docs/plugins/bmad-core" style={{marginLeft: '1rem'}}>
-            Browse Plugins
+          <Link className="button button--secondary button--lg" to="/docs/modules/bmad-core" style={{marginLeft: '1rem'}}>
+            Browse Modules
           </Link>
         </div>
       </div>
@@ -105,7 +105,7 @@ function StatsSection() {
   );
 }
 
-function PluginCard({name, emoji, description, agents, commands}) {
+function ModuleCard({name, emoji, description, agents, commands}) {
   return (
     <div className="col col--4" style={{marginBottom: '1.5rem'}}>
       <div className="card" style={{height: '100%'}}>
@@ -119,7 +119,7 @@ function PluginCard({name, emoji, description, agents, commands}) {
           <span style={{marginRight: '1rem'}}>{agents} agents</span>
           <span>{commands} commands</span>
           <div style={{marginTop: '0.5rem'}}>
-            <Link className="button button--outline button--sm button--primary" to={`/docs/plugins/${name}`}>
+            <Link className="button button--outline button--sm button--primary" to={`/docs/modules/${name}`}>
               View Docs
             </Link>
           </div>
@@ -129,20 +129,20 @@ function PluginCard({name, emoji, description, agents, commands}) {
   );
 }
 
-function PluginsSection() {
+function ModulesSection() {
   return (
     <section style={{padding: '3rem 0'}}>
       <div className="container">
         <Heading as="h2" className="text--center" style={{marginBottom: '2rem'}}>
-          Modular Plugin Architecture
+          Modular Architecture
         </Heading>
         <p className="text--center" style={{marginBottom: '2rem', maxWidth: '600px', margin: '0 auto 2rem'}}>
-          Install only what you need. A game developer gets <code>bmad-core</code> + <code>bmad-gds</code>.
-          A product team gets <code>bmad-core</code> + <code>bmad-bmm</code>. An instructor gets <code>bmad-core</code> + <code>bmad-edu</code>.
+          Install only what you need. A game developer selects <code>gds</code>.
+          A product team selects <code>bmm</code>. An instructor selects the Instructor profile.
         </p>
         <div className="row">
-          {plugins.map((plugin, idx) => (
-            <PluginCard key={idx} {...plugin} />
+          {modules.map((mod, idx) => (
+            <ModuleCard key={idx} {...mod} />
           ))}
         </div>
       </div>
@@ -160,8 +160,8 @@ function WorkflowSection() {
         <div className="row">
           <div className="col col--4 text--center">
             <Heading as="h3">1. Install</Heading>
-            <code>/plugin install bmad-core@mosaic-plugins</code>
-            <p style={{marginTop: '0.5rem'}}>Add the plugins you need from the Mosaic marketplace.</p>
+            <code>npx @mousasoutari/mosaic-setup</code>
+            <p style={{marginTop: '0.5rem'}}>One command sets up BMAD Method, agents, workflows, and MCP servers.</p>
           </div>
           <div className="col col--4 text--center">
             <Heading as="h3">2. Setup</Heading>
@@ -221,11 +221,11 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title="AI-Driven Development for Claude Code"
-      description="30 specialized agents, 133 commands, and 86+ workflows packaged as Claude Code plugins. Product management, game development, testing, creative intelligence, and education.">
+      description="30 specialized agents, 133 commands, and 86+ workflows for Claude Code. Product management, game development, testing, creative intelligence, and education.">
       <HomepageHeader />
       <main>
         <StatsSection />
-        <PluginsSection />
+        <ModulesSection />
         <WorkflowSection />
         <InstructorSection />
       </main>

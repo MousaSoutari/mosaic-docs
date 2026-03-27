@@ -1,18 +1,14 @@
 ---
 sidebar_position: 2
 title: bmad-core
-description: Foundation plugin with setup, help, brainstorming, and editorial reviews
+description: Foundation module with setup, help, brainstorming, and editorial reviews
 ---
 
 # bmad-core
 
-**BMAD Core Platform** -- the foundation plugin required by all other BMAD modules. Provides project scaffolding, workflow orchestration, brainstorming, party-mode, and editorial review commands.
+**BMAD Core Platform** -- the foundation module required by all other BMAD modules. Provides project scaffolding, workflow orchestration, brainstorming, party-mode, and editorial review commands.
 
-## Installation
-
-~~~bash
-/plugin install bmad-core@mosaic-plugins
-~~~
+Installed by: `npx @mousasoutari/mosaic-setup` (always included)
 
 ## Agent
 

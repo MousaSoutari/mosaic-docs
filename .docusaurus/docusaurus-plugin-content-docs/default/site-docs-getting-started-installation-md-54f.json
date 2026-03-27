@@ -1,7 +1,7 @@
 {
   "id": "getting-started/installation",
   "title": "Installation",
-  "description": "How to install Mosaic BMAD plugins in Claude Code",
+  "description": "How to install Mosaic BMAD in your project",
   "source": "@site/docs/getting-started/installation.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/installation",
@@ -15,11 +15,11 @@
   "frontMatter": {
     "sidebar_position": 1,
     "title": "Installation",
-    "description": "How to install Mosaic BMAD plugins in Claude Code"
+    "description": "How to install Mosaic BMAD in your project"
   },
   "sidebar": "docsSidebar",
   "previous": {
-    "title": "Mosaic BMAD Plugins",
+    "title": "Mosaic BMAD",
     "permalink": "/mosaic-docs/docs/"
   },
   "next": {

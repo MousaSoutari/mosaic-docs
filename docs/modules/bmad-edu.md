@@ -6,14 +6,9 @@ description: Education module for Unity course creation and IET tutorials
 
 # bmad-edu
 
-**BMAD Education Module** -- a two-mode Unity development plugin. Normal mode provides standard BMAD-powered development. Instructor mode enables complete course creation with screenshots, GIFs, syllabus, labs, quizzes, tutorials, and Essentials Pathway content.
+**BMAD Education Module** -- a two-mode Unity development module. Normal mode provides standard BMAD-powered development. Instructor mode enables complete course creation with screenshots, GIFs, syllabus, labs, quizzes, tutorials, and Essentials Pathway content.
 
-## Installation
-
-~~~bash
-/plugin install bmad-core@mosaic-plugins
-/plugin install bmad-edu@mosaic-plugins
-~~~
+Installed by: `npx @mousasoutari/mosaic-setup install --mode instructor`
 
 ## Two Modes
 
@@ -155,7 +150,7 @@ Triggers before `unity_play_mode`. Verifies there are no compilation errors and 
 
 ## Unity Project Manager MCP Server
 
-An MCP server that manages Unity projects without requiring Unity to be running. See [Unity Project Manager](./unity-project-manager) for full documentation.
+An MCP server that manages Unity projects without requiring the Unity Editor to be running. See [Unity Project Manager](./unity-project-manager) for full documentation.
 
 Configured in `.mcp.json`:
 ~~~json
@@ -164,7 +159,7 @@ Configured in `.mcp.json`:
     "unity-project-manager": {
       "type": "stdio",
       "command": "node",
-      "args": ["${CLAUDE_PLUGIN_ROOT}/mcp-servers/unity-project-manager/src/index.js"]
+      "args": [".mosaic/mcp-servers/unity-project-manager/src/index.js"]
     }
   }
 }

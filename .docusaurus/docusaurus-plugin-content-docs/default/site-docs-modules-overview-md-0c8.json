@@ -1,0 +1,25 @@
+{
+  "id": "modules/overview",
+  "title": "Module Overview",
+  "description": "All Mosaic BMAD modules at a glance",
+  "source": "@site/docs/modules/overview.md",
+  "sourceDirName": "modules",
+  "slug": "/modules/overview",
+  "permalink": "/mosaic-docs/docs/modules/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MousaSoutari/mosaic-docs/tree/main/docs/modules/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Module Overview",
+    "description": "All Mosaic BMAD modules at a glance"
+  },
+  "sidebar": "modulesSidebar",
+  "next": {
+    "title": "bmad-core",
+    "permalink": "/mosaic-docs/docs/modules/bmad-core"
+  }
+}

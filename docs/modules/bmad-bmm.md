@@ -8,12 +8,7 @@ description: Business Method Module for product development lifecycle
 
 **BMAD Business Method Module** -- the complete product development lifecycle with 9 specialized agents. Covers everything from initial research through PRD creation, sprint planning, story implementation, and code review.
 
-## Installation
-
-~~~bash
-/plugin install bmad-core@mosaic-plugins
-/plugin install bmad-bmm@mosaic-plugins
-~~~
+Installed by: `npx @mousasoutari/mosaic-setup install --modules bmm`
 
 ## Agents (9)
 

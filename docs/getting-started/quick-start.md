@@ -9,9 +9,9 @@ description: Get productive in 5 minutes
 ## Product Development (bmad-bmm)
 
 ~~~bash
-/plugin install bmad-core@mosaic-plugins
-/plugin install bmad-bmm@mosaic-plugins
-/bmad-setup
+cd your-project
+npx @mousasoutari/mosaic-setup        # Select Developer profile, bmm module
+claude
 ~~~
 
 Then:
@@ -26,9 +26,9 @@ Then:
 ## Game Development (bmad-gds)
 
 ~~~bash
-/plugin install bmad-core@mosaic-plugins
-/plugin install bmad-gds@mosaic-plugins
-/bmad-setup
+cd your-game-project
+npx @mousasoutari/mosaic-setup        # Select Developer profile, gds module
+claude
 ~~~
 
 Then:
@@ -43,9 +43,9 @@ Then:
 ## Instructor Mode (bmad-edu)
 
 ~~~bash
-/plugin install bmad-core@mosaic-plugins
-/plugin install bmad-edu@mosaic-plugins
-/bmad-setup
+cd your-course-project
+npx @mousasoutari/mosaic-setup        # Select Instructor profile
+claude
 ~~~
 
 Then follow the 4-phase pipeline:
@@ -59,9 +59,9 @@ Then follow the 4-phase pipeline:
 ## Test Engineering (bmad-tea)
 
 ~~~bash
-/plugin install bmad-core@mosaic-plugins
-/plugin install bmad-tea@mosaic-plugins
-/bmad-setup
+cd your-project
+npx @mousasoutari/mosaic-setup        # Select Developer profile, tea module
+claude
 ~~~
 
 Then:
@@ -75,9 +75,9 @@ Then:
 ## Creative Intelligence (bmad-cis)
 
 ~~~bash
-/plugin install bmad-core@mosaic-plugins
-/plugin install bmad-cis@mosaic-plugins
-/bmad-setup
+cd your-project
+npx @mousasoutari/mosaic-setup        # Select Developer profile, cis module
+claude
 ~~~
 
 Then:

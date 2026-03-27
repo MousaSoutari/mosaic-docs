@@ -8,12 +8,7 @@ description: Test Engineering and Architecture for ATDD, CI/CD, and test strateg
 
 **BMAD Test Engineering and Architecture** -- master test architecture with ATDD, CI/CD quality gates, test framework scaffolding, risk-based test design, traceability, NFR assessment, and interactive testing education.
 
-## Installation
-
-~~~bash
-/plugin install bmad-core@mosaic-plugins
-/plugin install bmad-tea@mosaic-plugins
-~~~
+Installed by: `npx @mousasoutari/mosaic-setup install --modules tea`
 
 ## Agent (1)
 

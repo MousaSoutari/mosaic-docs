@@ -1,0 +1,29 @@
+{
+  "id": "modules/bmad-core",
+  "title": "bmad-core",
+  "description": "Foundation module with setup, help, brainstorming, and editorial reviews",
+  "source": "@site/docs/modules/bmad-core.md",
+  "sourceDirName": "modules",
+  "slug": "/modules/bmad-core",
+  "permalink": "/mosaic-docs/docs/modules/bmad-core",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MousaSoutari/mosaic-docs/tree/main/docs/modules/bmad-core.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "bmad-core",
+    "description": "Foundation module with setup, help, brainstorming, and editorial reviews"
+  },
+  "sidebar": "modulesSidebar",
+  "previous": {
+    "title": "Module Overview",
+    "permalink": "/mosaic-docs/docs/modules/overview"
+  },
+  "next": {
+    "title": "bmad-bmm",
+    "permalink": "/mosaic-docs/docs/modules/bmad-bmm"
+  }
+}

@@ -8,12 +8,7 @@ description: Creative Intelligence Suite for innovation and design thinking
 
 **BMAD Creative Intelligence Suite** -- innovation, design thinking, brainstorming, storytelling, and creative problem-solving with 6 specialized agents. Each agent brings a distinct creative methodology to your project.
 
-## Installation
-
-~~~bash
-/plugin install bmad-core@mosaic-plugins
-/plugin install bmad-cis@mosaic-plugins
-~~~
+Installed by: `npx @mousasoutari/mosaic-setup install --modules cis`
 
 ## Agents (6)
 

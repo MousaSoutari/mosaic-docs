@@ -8,12 +8,7 @@ description: Game Dev Studio for complete game development lifecycle
 
 **BMAD Game Dev Studio** -- the complete game development lifecycle with 7 specialized agents. Covers game design briefs, GDD creation, game architecture, sprint management, playtesting, and automated game testing.
 
-## Installation
-
-~~~bash
-/plugin install bmad-core@mosaic-plugins
-/plugin install bmad-gds@mosaic-plugins
-~~~
+Installed by: `npx @mousasoutari/mosaic-setup install --modules gds`
 
 ## Agents (7)
 

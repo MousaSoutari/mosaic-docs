@@ -9,15 +9,15 @@ export default [
   },
   {
     path: '/mosaic-docs/docs',
-    component: ComponentCreator('/mosaic-docs/docs', '735'),
+    component: ComponentCreator('/mosaic-docs/docs', '2d8'),
     routes: [
       {
         path: '/mosaic-docs/docs',
-        component: ComponentCreator('/mosaic-docs/docs', '013'),
+        component: ComponentCreator('/mosaic-docs/docs', 'e69'),
         routes: [
           {
             path: '/mosaic-docs/docs',
-            component: ComponentCreator('/mosaic-docs/docs', 'bfd'),
+            component: ComponentCreator('/mosaic-docs/docs', 'af5'),
             routes: [
               {
                 path: '/mosaic-docs/docs/',
@@ -62,58 +62,58 @@ export default [
                 sidebar: "docsSidebar"
               },
               {
-                path: '/mosaic-docs/docs/plugins/bmad-bmb',
-                component: ComponentCreator('/mosaic-docs/docs/plugins/bmad-bmb', '279'),
+                path: '/mosaic-docs/docs/modules/bmad-bmb',
+                component: ComponentCreator('/mosaic-docs/docs/modules/bmad-bmb', 'b7e'),
                 exact: true,
-                sidebar: "pluginsSidebar"
+                sidebar: "modulesSidebar"
               },
               {
-                path: '/mosaic-docs/docs/plugins/bmad-bmm',
-                component: ComponentCreator('/mosaic-docs/docs/plugins/bmad-bmm', '817'),
+                path: '/mosaic-docs/docs/modules/bmad-bmm',
+                component: ComponentCreator('/mosaic-docs/docs/modules/bmad-bmm', '4ad'),
                 exact: true,
-                sidebar: "pluginsSidebar"
+                sidebar: "modulesSidebar"
               },
               {
-                path: '/mosaic-docs/docs/plugins/bmad-cis',
-                component: ComponentCreator('/mosaic-docs/docs/plugins/bmad-cis', '08a'),
+                path: '/mosaic-docs/docs/modules/bmad-cis',
+                component: ComponentCreator('/mosaic-docs/docs/modules/bmad-cis', '25b'),
                 exact: true,
-                sidebar: "pluginsSidebar"
+                sidebar: "modulesSidebar"
               },
               {
-                path: '/mosaic-docs/docs/plugins/bmad-core',
-                component: ComponentCreator('/mosaic-docs/docs/plugins/bmad-core', '107'),
+                path: '/mosaic-docs/docs/modules/bmad-core',
+                component: ComponentCreator('/mosaic-docs/docs/modules/bmad-core', '809'),
                 exact: true,
-                sidebar: "pluginsSidebar"
+                sidebar: "modulesSidebar"
               },
               {
-                path: '/mosaic-docs/docs/plugins/bmad-edu',
-                component: ComponentCreator('/mosaic-docs/docs/plugins/bmad-edu', '590'),
+                path: '/mosaic-docs/docs/modules/bmad-edu',
+                component: ComponentCreator('/mosaic-docs/docs/modules/bmad-edu', 'ad0'),
                 exact: true,
-                sidebar: "pluginsSidebar"
+                sidebar: "modulesSidebar"
               },
               {
-                path: '/mosaic-docs/docs/plugins/bmad-gds',
-                component: ComponentCreator('/mosaic-docs/docs/plugins/bmad-gds', 'b1c'),
+                path: '/mosaic-docs/docs/modules/bmad-gds',
+                component: ComponentCreator('/mosaic-docs/docs/modules/bmad-gds', '11e'),
                 exact: true,
-                sidebar: "pluginsSidebar"
+                sidebar: "modulesSidebar"
               },
               {
-                path: '/mosaic-docs/docs/plugins/bmad-tea',
-                component: ComponentCreator('/mosaic-docs/docs/plugins/bmad-tea', '168'),
+                path: '/mosaic-docs/docs/modules/bmad-tea',
+                component: ComponentCreator('/mosaic-docs/docs/modules/bmad-tea', '0cb'),
                 exact: true,
-                sidebar: "pluginsSidebar"
+                sidebar: "modulesSidebar"
               },
               {
-                path: '/mosaic-docs/docs/plugins/overview',
-                component: ComponentCreator('/mosaic-docs/docs/plugins/overview', '6ce'),
+                path: '/mosaic-docs/docs/modules/overview',
+                component: ComponentCreator('/mosaic-docs/docs/modules/overview', 'f3b'),
                 exact: true,
-                sidebar: "pluginsSidebar"
+                sidebar: "modulesSidebar"
               },
               {
-                path: '/mosaic-docs/docs/plugins/unity-project-manager',
-                component: ComponentCreator('/mosaic-docs/docs/plugins/unity-project-manager', '851'),
+                path: '/mosaic-docs/docs/modules/unity-project-manager',
+                component: ComponentCreator('/mosaic-docs/docs/modules/unity-project-manager', '2e9'),
                 exact: true,
-                sidebar: "pluginsSidebar"
+                sidebar: "modulesSidebar"
               }
             ]
           }

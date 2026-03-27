@@ -1,7 +1,7 @@
 {
   "id": "getting-started/architecture",
   "title": "Architecture",
-  "description": "How Mosaic BMAD plugins are structured",
+  "description": "How Mosaic BMAD is structured",
   "source": "@site/docs/getting-started/architecture.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/architecture",
@@ -15,7 +15,7 @@
   "frontMatter": {
     "sidebar_position": 3,
     "title": "Architecture",
-    "description": "How Mosaic BMAD plugins are structured"
+    "description": "How Mosaic BMAD is structured"
   },
   "sidebar": "docsSidebar",
   "previous": {

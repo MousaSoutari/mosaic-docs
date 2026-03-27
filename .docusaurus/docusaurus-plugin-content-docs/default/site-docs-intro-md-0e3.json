@@ -1,6 +1,6 @@
 {
   "id": "intro",
-  "title": "Mosaic BMAD Plugins",
+  "title": "Mosaic BMAD",
   "description": "AI-driven development methodology for Claude Code",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
@@ -15,7 +15,7 @@
   "frontMatter": {
     "sidebar_position": 1,
     "slug": "/",
-    "title": "Mosaic BMAD Plugins",
+    "title": "Mosaic BMAD",
     "description": "AI-driven development methodology for Claude Code"
   },
   "sidebar": "docsSidebar",

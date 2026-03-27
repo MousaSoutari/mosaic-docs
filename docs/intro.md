@@ -1,19 +1,28 @@
 ---
 sidebar_position: 1
 slug: /
-title: Mosaic BMAD Plugins
+title: Mosaic BMAD
 description: AI-driven development methodology for Claude Code
 ---
 
-# Mosaic BMAD Plugins
+# Mosaic BMAD
 
-**30 specialized agents, 133 commands, and 86+ workflows** -- packaged as Claude Code plugins.
+**30 specialized agents, 133 commands, and 86+ workflows** -- installed with a single command.
 
-Mosaic BMAD Plugins bring the [BMad Method](https://github.com/bmad-code-org/BMAD-METHOD) (Better Method for AI-Driven Development) directly into Claude Code. Instead of a custom UI, Claude Code IS the editor -- with specialized AI agents for every role in your development process.
+Mosaic BMAD brings the [BMad Method](https://github.com/bmad-code-org/BMAD-METHOD) (Better Method for AI-Driven Development) directly into Claude Code. Instead of a custom UI, Claude Code IS the editor -- with specialized AI agents for every role in your development process.
+
+## Quick Install
+
+~~~bash
+cd your-project
+npx @mousasoutari/mosaic-setup
+~~~
+
+The installer sets up BMAD Method, adds Mosaic custom agents and workflows, configures MCP servers, and gets you started in minutes.
 
 ## What You Get
 
-| Plugin | Agents | Commands | For |
+| Module | Agents | Commands | For |
 |--------|--------|----------|-----|
 | **bmad-core** | 1 | 11 | Everyone -- setup, help, brainstorming, reviews |
 | **bmad-bmm** | 9 | 32 | Product teams -- PRDs, sprints, stories, code review |
@@ -25,12 +34,11 @@ Mosaic BMAD Plugins bring the [BMad Method](https://github.com/bmad-code-org/BMA
 
 ## Quick Start
 
-Install in Claude Code:
 ~~~bash
-/plugin install bmad-core@mosaic-plugins
-/plugin install bmad-bmm@mosaic-plugins   # Pick your module
-/bmad-setup                               # Initialize project
-/bmad-help                                # What to do next
+cd your-project
+npx @mousasoutari/mosaic-setup   # Interactive installer
+claude                           # Open Claude Code
+/bmad-help                       # What to do next
 ~~~
 
 ## Key Concepts
@@ -38,7 +46,18 @@ Install in Claude Code:
 - **Agents** -- AI personas with specific expertise (PM, developer, architect, etc.)
 - **Commands** -- Slash commands that trigger workflows (e.g., `/bmad-bmm-create-prd`)
 - **Workflows** -- Multi-step processes with templates and decision trees
-- **Config Resolution** -- Project config overrides plugin defaults
+- **Config Resolution** -- Project config overrides module defaults
+
+## BMAD Method Documentation
+
+Mosaic builds on top of the official BMad Method. For core BMAD documentation:
+
+- [BMAD Method Repository](https://github.com/bmad-code-org/BMAD-METHOD) -- Source code and methodology
+- [BMAD Getting Started](https://github.com/bmad-code-org/BMAD-METHOD#getting-started) -- Official installation and usage guide
+- [BMAD Workflow Reference](https://github.com/bmad-code-org/BMAD-METHOD#workflows) -- All standard workflows
+- [BMAD Agent Reference](https://github.com/bmad-code-org/BMAD-METHOD#agents) -- All standard agent personas
+
+Mosaic adds custom agents, skills, hooks, MCP servers, and the instructor mode pipeline on top of the standard BMAD method.
 
 ## Attribution
 

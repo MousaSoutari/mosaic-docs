@@ -1,0 +1,29 @@
+{
+  "id": "modules/bmad-cis",
+  "title": "bmad-cis",
+  "description": "Creative Intelligence Suite for innovation and design thinking",
+  "source": "@site/docs/modules/bmad-cis.md",
+  "sourceDirName": "modules",
+  "slug": "/modules/bmad-cis",
+  "permalink": "/mosaic-docs/docs/modules/bmad-cis",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MousaSoutari/mosaic-docs/tree/main/docs/modules/bmad-cis.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "bmad-cis",
+    "description": "Creative Intelligence Suite for innovation and design thinking"
+  },
+  "sidebar": "modulesSidebar",
+  "previous": {
+    "title": "bmad-tea",
+    "permalink": "/mosaic-docs/docs/modules/bmad-tea"
+  },
+  "next": {
+    "title": "bmad-edu",
+    "permalink": "/mosaic-docs/docs/modules/bmad-edu"
+  }
+}

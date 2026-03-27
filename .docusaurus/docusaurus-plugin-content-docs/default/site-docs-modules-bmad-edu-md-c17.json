@@ -1,0 +1,29 @@
+{
+  "id": "modules/bmad-edu",
+  "title": "bmad-edu",
+  "description": "Education module for Unity course creation and IET tutorials",
+  "source": "@site/docs/modules/bmad-edu.md",
+  "sourceDirName": "modules",
+  "slug": "/modules/bmad-edu",
+  "permalink": "/mosaic-docs/docs/modules/bmad-edu",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MousaSoutari/mosaic-docs/tree/main/docs/modules/bmad-edu.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "bmad-edu",
+    "description": "Education module for Unity course creation and IET tutorials"
+  },
+  "sidebar": "modulesSidebar",
+  "previous": {
+    "title": "bmad-cis",
+    "permalink": "/mosaic-docs/docs/modules/bmad-cis"
+  },
+  "next": {
+    "title": "bmad-bmb",
+    "permalink": "/mosaic-docs/docs/modules/bmad-bmb"
+  }
+}

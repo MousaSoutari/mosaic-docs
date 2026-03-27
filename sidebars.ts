@@ -22,36 +22,36 @@ const sidebars: SidebarsConfig = {
       ],
     },
   ],
-  pluginsSidebar: [
-    'plugins/overview',
+  modulesSidebar: [
+    'modules/overview',
     {
       type: 'category',
       label: 'Core',
-      items: ['plugins/bmad-core'],
+      items: ['modules/bmad-core'],
     },
     {
       type: 'category',
       label: 'Development',
       items: [
-        'plugins/bmad-bmm',
-        'plugins/bmad-gds',
-        'plugins/bmad-tea',
+        'modules/bmad-bmm',
+        'modules/bmad-gds',
+        'modules/bmad-tea',
       ],
     },
     {
       type: 'category',
       label: 'Creative & Education',
       items: [
-        'plugins/bmad-cis',
-        'plugins/bmad-edu',
+        'modules/bmad-cis',
+        'modules/bmad-edu',
       ],
     },
     {
       type: 'category',
       label: 'Tooling',
       items: [
-        'plugins/bmad-bmb',
-        'plugins/unity-project-manager',
+        'modules/bmad-bmb',
+        'modules/unity-project-manager',
       ],
     },
   ],

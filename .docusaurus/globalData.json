@@ -46,49 +46,49 @@
               "sidebar": "docsSidebar"
             },
             {
-              "id": "plugins/bmad-bmb",
-              "path": "/mosaic-docs/docs/plugins/bmad-bmb",
-              "sidebar": "pluginsSidebar"
+              "id": "modules/bmad-bmb",
+              "path": "/mosaic-docs/docs/modules/bmad-bmb",
+              "sidebar": "modulesSidebar"
             },
             {
-              "id": "plugins/bmad-bmm",
-              "path": "/mosaic-docs/docs/plugins/bmad-bmm",
-              "sidebar": "pluginsSidebar"
+              "id": "modules/bmad-bmm",
+              "path": "/mosaic-docs/docs/modules/bmad-bmm",
+              "sidebar": "modulesSidebar"
             },
             {
-              "id": "plugins/bmad-cis",
-              "path": "/mosaic-docs/docs/plugins/bmad-cis",
-              "sidebar": "pluginsSidebar"
+              "id": "modules/bmad-cis",
+              "path": "/mosaic-docs/docs/modules/bmad-cis",
+              "sidebar": "modulesSidebar"
             },
             {
-              "id": "plugins/bmad-core",
-              "path": "/mosaic-docs/docs/plugins/bmad-core",
-              "sidebar": "pluginsSidebar"
+              "id": "modules/bmad-core",
+              "path": "/mosaic-docs/docs/modules/bmad-core",
+              "sidebar": "modulesSidebar"
             },
             {
-              "id": "plugins/bmad-edu",
-              "path": "/mosaic-docs/docs/plugins/bmad-edu",
-              "sidebar": "pluginsSidebar"
+              "id": "modules/bmad-edu",
+              "path": "/mosaic-docs/docs/modules/bmad-edu",
+              "sidebar": "modulesSidebar"
             },
             {
-              "id": "plugins/bmad-gds",
-              "path": "/mosaic-docs/docs/plugins/bmad-gds",
-              "sidebar": "pluginsSidebar"
+              "id": "modules/bmad-gds",
+              "path": "/mosaic-docs/docs/modules/bmad-gds",
+              "sidebar": "modulesSidebar"
             },
             {
-              "id": "plugins/bmad-tea",
-              "path": "/mosaic-docs/docs/plugins/bmad-tea",
-              "sidebar": "pluginsSidebar"
+              "id": "modules/bmad-tea",
+              "path": "/mosaic-docs/docs/modules/bmad-tea",
+              "sidebar": "modulesSidebar"
             },
             {
-              "id": "plugins/overview",
-              "path": "/mosaic-docs/docs/plugins/overview",
-              "sidebar": "pluginsSidebar"
+              "id": "modules/overview",
+              "path": "/mosaic-docs/docs/modules/overview",
+              "sidebar": "modulesSidebar"
             },
             {
-              "id": "plugins/unity-project-manager",
-              "path": "/mosaic-docs/docs/plugins/unity-project-manager",
-              "sidebar": "pluginsSidebar"
+              "id": "modules/unity-project-manager",
+              "path": "/mosaic-docs/docs/modules/unity-project-manager",
+              "sidebar": "modulesSidebar"
             }
           ],
           "draftIds": [],
@@ -99,10 +99,10 @@
                 "label": "intro"
               }
             },
-            "pluginsSidebar": {
+            "modulesSidebar": {
               "link": {
-                "path": "/mosaic-docs/docs/plugins/overview",
-                "label": "plugins/overview"
+                "path": "/mosaic-docs/docs/modules/overview",
+                "label": "modules/overview"
               }
             }
           }

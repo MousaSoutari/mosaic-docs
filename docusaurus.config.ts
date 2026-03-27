@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Mosaic BMAD Plugins',
-  tagline: 'AI-driven development methodology for Claude Code — 30 agents, 133 commands, 7 plugins',
+  title: 'Mosaic BMAD',
+  tagline: 'AI-driven development methodology for Claude Code — 30 agents, 133 commands, one installer',
   favicon: 'img/favicon.ico',
 
   future: {
@@ -57,9 +57,9 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
-          sidebarId: 'pluginsSidebar',
+          sidebarId: 'modulesSidebar',
           position: 'left',
-          label: 'Plugins',
+          label: 'Modules',
         },
         {
           href: 'https://github.com/MousaSoutari',
@@ -80,19 +80,21 @@ const config: Config = {
           ],
         },
         {
-          title: 'Plugins',
+          title: 'Modules',
           items: [
-            { label: 'bmad-core', to: '/docs/plugins/bmad-core' },
-            { label: 'bmad-bmm', to: '/docs/plugins/bmad-bmm' },
-            { label: 'bmad-gds', to: '/docs/plugins/bmad-gds' },
-            { label: 'bmad-edu', to: '/docs/plugins/bmad-edu' },
+            { label: 'bmad-core', to: '/docs/modules/bmad-core' },
+            { label: 'bmad-bmm', to: '/docs/modules/bmad-bmm' },
+            { label: 'bmad-gds', to: '/docs/modules/bmad-gds' },
+            { label: 'bmad-edu', to: '/docs/modules/bmad-edu' },
           ],
         },
         {
-          title: 'More',
+          title: 'Resources',
           items: [
             { label: 'BMad Method', href: 'https://github.com/bmad-code-org/BMAD-METHOD' },
+            { label: 'BMad Documentation', href: 'https://github.com/bmad-code-org/BMAD-METHOD#readme' },
             { label: 'Claude Code', href: 'https://claude.ai/claude-code' },
+            { label: 'AnkleBreaker Unity MCP', href: 'https://github.com/AnkleBreaker-Studio/unity-mcp-plugin' },
           ],
         },
       ],
