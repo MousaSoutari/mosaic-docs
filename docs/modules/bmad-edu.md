@@ -4,8 +4,8 @@ title: bmad-edu
 description: Education module for Unity course creation and IET tutorials
 ---
 
-:::info Instructor Profile Required
-Most edu commands are only installed when you select the **Instructor** profile during setup. The 3 edu agents and `/edu-capture` command are available in both Developer and Instructor profiles.
+:::info Mosaic Custom Module
+The edu module is a Mosaic addition, not part of the standard BMAD Method. It is installed by the Mosaic setup tool alongside the BMAD modules. The 3 edu agents and core edu commands are available in both Developer and Instructor profiles.
 :::
 
 # bmad-edu
@@ -30,46 +30,46 @@ Activated via `/edu-define-course`. Enables the full instructor pipeline: define
 | `/bmad-agent-edu-iet-builder` | IET Builder | Tutorial Builder | IET tutorial assets, criteria, validation |
 | `/bmad-agent-edu-code-pedagogy` | Code Pedagogy | Code Educator | Educational code review, scaffolding, progressive complexity |
 
-## Commands (15 available, 9 planned)
+## Commands by Category (24)
 
 ### Course Setup (4)
-| Command | Description | Status |
-|---------|-------------|--------|
-| `/edu-define-course` | Phase A: Interactive interview to define course metadata, weeks, features, and labs | Available |
-| `/edu-build-project` | Phase B: Build the reference Unity project with automated screenshot/GIF capture | Available |
-| `/edu-generate-course` | Phase C: Generate all course materials (syllabus, labs, quizzes, tutorials) | Available |
-| `/edu-infer-course` | Infer course structure from an existing Unity project | Available |
+| Command | Description |
+|---------|-------------|
+| `/edu-define-course` | Phase A: Interactive interview to define course metadata, weeks, features, and labs |
+| `/edu-build-project` | Phase B: Build the reference Unity project with automated screenshot/GIF capture |
+| `/edu-generate-course` | Phase C: Generate all course materials (syllabus, labs, quizzes, tutorials) |
+| `/edu-infer-course` | Infer course structure from an existing Unity project |
 
-### Materials Generation (3 available, 11 planned)
-| Command | Description | Status |
-|---------|-------------|--------|
-| `/edu-generate-diagrams` | Generate technical diagrams (architecture, flow, sequence) | Available |
-| `/edu-export-slides` | Export presentation content to PDF/PPTX format | Available |
-| `/edu-translate-course` | Translate course materials to another language | Available |
-| `/edu-create-syllabus` | Generate a structured syllabus from course config | Planned |
-| `/edu-generate-lab` | Generate a lab exercise with starter code and solution | Planned |
-| `/edu-generate-quiz` | Generate quiz questions aligned to learning objectives | Planned |
-| `/edu-generate-tutorial` | Generate a step-by-step tutorial document | Planned |
-| `/edu-generate-material` | Generate any course material (flexible) | Planned |
-| `/edu-generate-presentation` | Generate slide deck content for lectures | Planned |
-| `/edu-generate-rubric` | Generate grading rubric for assignments | Planned |
-| `/edu-live-coding-script` | Generate a live coding script with talking points | Planned |
-| `/edu-code-comments` | Add pedagogical comments to code files | Planned |
-| `/edu-decompose-project` | Decompose a project into teachable increments | Planned |
-| `/edu-predict-errors` | Predict common student errors and create guidance | Planned |
+### Materials Generation (14)
+| Command | Description |
+|---------|-------------|
+| `/edu-create-syllabus` | Generate a structured syllabus from course config |
+| `/edu-generate-lab` | Generate a lab exercise with starter code and solution |
+| `/edu-generate-quiz` | Generate quiz questions aligned to learning objectives |
+| `/edu-generate-tutorial` | Generate a step-by-step tutorial document |
+| `/edu-generate-material` | Generate any course material (flexible) |
+| `/edu-generate-presentation` | Generate slide deck content for lectures |
+| `/edu-generate-diagrams` | Generate technical diagrams (architecture, flow, sequence) |
+| `/edu-generate-rubric` | Generate grading rubric for assignments |
+| `/edu-live-coding-script` | Generate a live coding script with talking points |
+| `/edu-code-comments` | Add pedagogical comments to code files |
+| `/edu-decompose-project` | Decompose a project into teachable increments |
+| `/edu-predict-errors` | Predict common student errors and create guidance |
+| `/edu-export-slides` | Export presentation content to PDF/PPTX format |
+| `/edu-translate-course` | Translate course materials to another language |
 
 ### Pathway / IET (4)
-| Command | Description | Status |
-|---------|-------------|--------|
-| `/edu-create-pathway` | Create an IET Essentials Pathway structure | Available |
-| `/edu-create-tutorial-project` | Phase D: Create a complete IET tutorial Unity project | Available |
-| `/edu-rebuild-tutorial` | Rebuild tutorial assets from updated specs | Available |
-| `/edu-validate-iet` | Validate IET tutorial assets for completeness | Available |
+| Command | Description |
+|---------|-------------|
+| `/edu-create-pathway` | Create an IET Essentials Pathway structure |
+| `/edu-create-tutorial-project` | Phase D: Create a complete IET tutorial Unity project |
+| `/edu-rebuild-tutorial` | Rebuild tutorial assets from updated specs |
+| `/edu-validate-iet` | Validate IET tutorial assets for completeness |
 
 ### Capture (1)
-| Command | Description | Status |
-|---------|-------------|--------|
-| `/edu-capture` | Take a screenshot or start GIF recording | Available |
+| Command | Description |
+|---------|-------------|
+| `/edu-capture` | Take a screenshot or start GIF recording |
 
 ### Agents (3)
 All 3 agent commands listed in the agents table above.

@@ -9,9 +9,9 @@ import styles from './index.module.css';
 
 const stats = [
   { label: 'Modules', value: '7' },
-  { label: 'Agents', value: '19' },
-  { label: 'Commands', value: '88+' },
-  { label: 'Workflows', value: '72+' },
+  { label: 'Agents', value: '30' },
+  { label: 'Commands', value: '133' },
+  { label: 'Workflows', value: '86+' },
 ];
 
 const modules = [
@@ -19,8 +19,8 @@ const modules = [
     name: 'bmad-core',
     emoji: '🧙',
     description: 'Foundation module with setup, help, brainstorming, reviews, and workflow orchestration.',
-    agents: 0,
-    commands: 10,
+    agents: 1,
+    commands: 11,
   },
   {
     name: 'bmad-bmm',
@@ -34,7 +34,7 @@ const modules = [
     emoji: '🎮',
     description: 'Game development studio — GDD creation, game architecture, playtesting, automated game QA.',
     agents: 7,
-    commands: 36,
+    commands: 31,
   },
   {
     name: 'bmad-cis',
@@ -42,7 +42,6 @@ const modules = [
     description: 'Creative intelligence — innovation strategy, design thinking, storytelling, brainstorming coaching.',
     agents: 6,
     commands: 10,
-    badge: 'Coming Soon',
   },
   {
     name: 'bmad-bmb',
@@ -50,7 +49,6 @@ const modules = [
     description: 'BMAD Builder tools — create, edit, and validate agents, workflows, and modules.',
     agents: 3,
     commands: 15,
-    badge: 'Coming Soon',
   },
   {
     name: 'bmad-tea',
@@ -58,15 +56,13 @@ const modules = [
     description: 'Test engineering and architecture — ATDD, CI/CD pipelines, test design, traceability.',
     agents: 1,
     commands: 10,
-    badge: 'Coming Soon',
   },
   {
     name: 'bmad-edu',
     emoji: '🎓',
     description: 'Education module — two modes: Normal development + Instructor mode with full course creation pipeline.',
     agents: 3,
-    commands: 15,
-    badge: 'Instructor',
+    commands: 24,
   },
 ];
 
@@ -109,26 +105,12 @@ function StatsSection() {
   );
 }
 
-function ModuleCard({name, emoji, description, agents, commands, badge}: any) {
+function ModuleCard({name, emoji, description, agents, commands}) {
   return (
     <div className="col col--4" style={{marginBottom: '1.5rem'}}>
-      <div className="card" style={{height: '100%', opacity: badge === 'Coming Soon' ? 0.7 : 1}}>
+      <div className="card" style={{height: '100%'}}>
         <div className="card__header">
-          <Heading as="h3">
-            {emoji} {name}
-            {badge && (
-              <span style={{
-                fontSize: '0.65rem',
-                background: badge === 'Coming Soon' ? '#666' : '#4a90d9',
-                color: '#fff',
-                padding: '2px 8px',
-                borderRadius: '4px',
-                marginLeft: '8px',
-                verticalAlign: 'middle',
-                fontWeight: 'normal',
-              }}>{badge}</span>
-            )}
-          </Heading>
+          <Heading as="h3">{emoji} {name}</Heading>
         </div>
         <div className="card__body">
           <p>{description}</p>
@@ -183,7 +165,7 @@ function WorkflowSection() {
           </div>
           <div className="col col--4 text--center">
             <Heading as="h3">2. Setup</Heading>
-            <code>/bmad-init</code>
+            <code>/bmad-setup</code>
             <p style={{marginTop: '0.5rem'}}>Initialize your project with config, output dirs, and CLAUDE.md rules.</p>
           </div>
           <div className="col col--4 text--center">
@@ -239,7 +221,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title="AI-Driven Development for Claude Code"
-      description="19 specialized agents, 88+ commands, and 72+ workflows for Claude Code. Product management, game development, testing, creative intelligence, and education.">
+      description="30 specialized agents, 133 commands, and 86+ workflows for Claude Code. Product management, game development, testing, creative intelligence, and education.">
       <HomepageHeader />
       <main>
         <StatsSection />

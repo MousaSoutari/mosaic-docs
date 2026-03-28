@@ -74,8 +74,8 @@ _bmad-output/
 
 Workflows reference outputs from previous workflows. For example, `create-architecture` expects a PRD to already exist in `_bmad-output/`. The recommended flow is:
 
-1. **Discovery** -- `/bmad-create-product-brief` or `/gds-create-game-brief`
-2. **Specification** -- `/bmad-create-prd` or `/gds-create-gdd`
-3. **Architecture** -- `/bmad-create-architecture` or `/gds-game-architecture`
-4. **Stories** -- `/bmad-create-epics-and-stories`
-5. **Implementation** -- `/bmad-dev-story` or `/gds-dev-story`
+1. **Discovery** -- `/bmad-bmm-create-product-brief` or `/bmad-gds-create-game-brief`
+2. **Specification** -- `/bmad-bmm-create-prd` or `/bmad-gds-create-gdd`
+3. **Architecture** -- `/bmad-bmm-create-architecture` or `/bmad-gds-game-architecture`
+4. **Stories** -- `/bmad-bmm-create-epics-and-stories`
+5. **Implementation** -- `/bmad-bmm-dev-story` or `/bmad-gds-dev-story`

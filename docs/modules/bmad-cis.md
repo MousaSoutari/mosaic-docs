@@ -4,10 +4,6 @@ title: bmad-cis
 description: Creative Intelligence Suite for innovation and design thinking
 ---
 
-:::info Coming Soon
-The bmad-cis module is planned but not yet available in the current BMAD Method release. The agents and commands listed below represent the planned functionality.
-:::
-
 # bmad-cis
 
 **BMAD Creative Intelligence Suite** -- innovation, design thinking, brainstorming, storytelling, and creative problem-solving with 6 specialized agents. Each agent brings a distinct creative methodology to your project.

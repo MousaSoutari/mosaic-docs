@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Mosaic BMAD',
-  tagline: 'AI-driven development methodology for Claude Code — 19 agents, 88+ commands, one installer',
+  tagline: 'AI-driven development methodology for Claude Code — 30 agents, 133 commands, one installer',
   favicon: 'img/favicon.ico',
 
   future: {
