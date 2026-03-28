@@ -12,15 +12,16 @@ Mosaic BMAD ships as 7 focused modules. The installer sets up `bmad-core` plus a
 
 | Module | Agents | Commands | Primary Use Case | Status |
 |--------|--------|----------|------------------|--------|
-| [bmad-core](./bmad-core) | 1 | 11 | Foundation -- setup, help, brainstorming, reviews | Available |
+| [bmad-core](./bmad-core) | 0 | 12 | Foundation -- setup, help, brainstorming, reviews | Available |
 | [bmad-bmm](./bmad-bmm) | 9 | 32 | Product development -- PRDs, sprints, stories | Available |
-| [bmad-gds](./bmad-gds) | 7 | 31 | Game development -- GDD, architecture, playtesting | Available |
+| [bmad-gds](./bmad-gds) | 7 | 36 | Game development -- GDD, architecture, playtesting | Available |
 | [bmad-cis](./bmad-cis) | 6 | 10 | Creative work -- innovation, design thinking, storytelling | Coming Soon |
 | [bmad-bmb](./bmad-bmb) | 3 | 15 | BMAD framework -- create agents, workflows, modules | Coming Soon |
 | [bmad-tea](./bmad-tea) | 1 | 10 | Test engineering -- ATDD, CI/CD, test architecture | Coming Soon |
-| [bmad-edu](./bmad-edu) | 3 | 24 | Education -- courses, tutorials, IET pathways | Partial (Instructor profile) |
+| [bmad-edu](./bmad-edu) | 3 | 15 | Education -- courses, tutorials, IET pathways | Partial (Instructor profile) |
 
-**Totals:** 30 agents, 133 commands
+**Available now:** 19 agents, 95+ commands across core, bmm, gds, and edu modules.
+**Planned total:** 30 agents, 130+ commands when cis, bmb, and tea modules ship.
 
 ## Which Modules Do I Need?
 

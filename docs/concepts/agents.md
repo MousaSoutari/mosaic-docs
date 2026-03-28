@@ -15,12 +15,7 @@ Agents are AI personas with specific domain expertise. Each agent has a name, co
 3. It greets you and presents a numbered menu
 4. You select options or chat freely -- the agent stays in character
 
-## All 30 Agents
-
-### Core (1)
-| Command | Name | Specialty |
-|---------|------|-----------|
-| `/bmad-agent-bmad-master` | BMad Master | Workflow orchestration, BMAD guidance |
+## Available Agents (19)
 
 ### Business Method (9)
 | Command | Name | Specialty |
@@ -46,7 +41,18 @@ Agents are AI personas with specific domain expertise. Each agent has a name, co
 | `/gds-agent-game-solo-dev` | Indie | Solo game development |
 | `/gds-agent-tech-writer` | Paige | Game documentation |
 
-### Creative Intelligence (6)
+### Education (3)
+| Command | Name | Specialty |
+|---------|------|-----------|
+| `/bmad-agent-edu-instructor` | Unity Instructor | Course design |
+| `/bmad-agent-edu-iet-builder` | IET Builder | Tutorial asset creation |
+| `/bmad-agent-edu-code-pedagogy` | Code Pedagogy | Educational code review |
+
+## Coming Soon Agents (11)
+
+The following agents will be available when their modules ship:
+
+### Creative Intelligence -- bmad-cis (6)
 | Command | Name | Specialty |
 |---------|------|-----------|
 | `/bmad-agent-cis-innovation-strategist` | Victor | Business model innovation |
@@ -56,21 +62,14 @@ Agents are AI personas with specific domain expertise. Each agent has a name, co
 | `/bmad-agent-cis-creative-problem-solver` | Dr. Quinn | Systematic problem solving |
 | `/bmad-agent-cis-presentation-master` | Caravaggio | Visual communication |
 
-### Builder (3)
+### Builder -- bmad-bmb (3)
 | Command | Name | Specialty |
 |---------|------|-----------|
 | `/bmad-agent-bmb-agent-builder` | Bond | Agent creation |
 | `/bmad-agent-bmb-workflow-builder` | Wendy | Workflow creation |
 | `/bmad-agent-bmb-module-builder` | Morgan | Module creation |
 
-### Test Architecture (1)
+### Test Architecture -- bmad-tea (1)
 | Command | Name | Specialty |
 |---------|------|-----------|
-| `/bmad-agent-tea-tea` | Murat | Test architecture, ATDD, CI/CD |
-
-### Education (3)
-| Command | Name | Specialty |
-|---------|------|-----------|
-| `/bmad-agent-edu-instructor` | Unity Instructor | Course design |
-| `/bmad-agent-edu-iet-builder` | IET Builder | Tutorial asset creation |
-| `/bmad-agent-edu-code-pedagogy` | Code Pedagogy | Educational code review |
+| `/bmad-agent-tea` | Murat | Test architecture, ATDD, CI/CD |

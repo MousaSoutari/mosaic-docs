@@ -42,6 +42,7 @@ const modules = [
     description: 'Creative intelligence — innovation strategy, design thinking, storytelling, brainstorming coaching.',
     agents: 6,
     commands: 10,
+    badge: 'Coming Soon',
   },
   {
     name: 'bmad-bmb',
@@ -49,6 +50,7 @@ const modules = [
     description: 'BMAD Builder tools — create, edit, and validate agents, workflows, and modules.',
     agents: 3,
     commands: 15,
+    badge: 'Coming Soon',
   },
   {
     name: 'bmad-tea',
@@ -56,13 +58,15 @@ const modules = [
     description: 'Test engineering and architecture — ATDD, CI/CD pipelines, test design, traceability.',
     agents: 1,
     commands: 10,
+    badge: 'Coming Soon',
   },
   {
     name: 'bmad-edu',
     emoji: '🎓',
     description: 'Education module — two modes: Normal development + Instructor mode with full course creation pipeline.',
     agents: 3,
-    commands: 24,
+    commands: 15,
+    badge: 'Instructor',
   },
 ];
 
@@ -105,12 +109,26 @@ function StatsSection() {
   );
 }
 
-function ModuleCard({name, emoji, description, agents, commands}) {
+function ModuleCard({name, emoji, description, agents, commands, badge}: any) {
   return (
     <div className="col col--4" style={{marginBottom: '1.5rem'}}>
-      <div className="card" style={{height: '100%'}}>
+      <div className="card" style={{height: '100%', opacity: badge === 'Coming Soon' ? 0.7 : 1}}>
         <div className="card__header">
-          <Heading as="h3">{emoji} {name}</Heading>
+          <Heading as="h3">
+            {emoji} {name}
+            {badge && (
+              <span style={{
+                fontSize: '0.65rem',
+                background: badge === 'Coming Soon' ? '#666' : '#4a90d9',
+                color: '#fff',
+                padding: '2px 8px',
+                borderRadius: '4px',
+                marginLeft: '8px',
+                verticalAlign: 'middle',
+                fontWeight: 'normal',
+              }}>{badge}</span>
+            )}
+          </Heading>
         </div>
         <div className="card__body">
           <p>{description}</p>
