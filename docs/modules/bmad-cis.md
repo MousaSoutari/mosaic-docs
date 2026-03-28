@@ -14,12 +14,12 @@ Installed by: `npx @mousasoutari/mosaic-setup install --modules cis`
 
 | Command | Name | Persona | Specialty |
 |---------|------|---------|-----------|
-| `/bmad-agent-cis-innovation-strategist` | Victor | Innovation Strategist | Business model innovation, disruption analysis |
-| `/bmad-agent-cis-brainstorming-coach` | Carson | Brainstorming Coach | Structured ideation, divergent/convergent thinking |
-| `/bmad-agent-cis-design-thinking-coach` | Maya | Design Thinking Coach | Human-centered design, empathy maps, prototyping |
-| `/bmad-agent-cis-storyteller` | Sophia | Storyteller | Narrative crafting, brand storytelling |
-| `/bmad-agent-cis-creative-problem-solver` | Dr. Quinn | Creative Problem Solver | TRIZ, lateral thinking, systematic creativity |
-| `/bmad-agent-cis-presentation-master` | Caravaggio | Presentation Master | Visual communication, slide design, data storytelling |
+| `/bmad-cis-agent-innovation-strategist` | Victor | Innovation Strategist | Business model innovation, disruption analysis |
+| `/bmad-cis-agent-brainstorming-coach` | Carson | Brainstorming Coach | Structured ideation, divergent/convergent thinking |
+| `/bmad-cis-agent-design-thinking-coach` | Maya | Design Thinking Coach | Human-centered design, empathy maps, prototyping |
+| `/bmad-cis-agent-storyteller` | Sophia | Storyteller | Narrative crafting, brand storytelling |
+| `/bmad-cis-agent-creative-problem-solver` | Dr. Quinn | Creative Problem Solver | TRIZ, lateral thinking, systematic creativity |
+| `/bmad-cis-agent-presentation-master` | Caravaggio | Presentation Master | Visual communication, slide design, data storytelling |
 
 ## Commands (10)
 
@@ -29,12 +29,12 @@ Installed by: `npx @mousasoutari/mosaic-setup install --modules cis`
 | `/bmad-cis-innovation-strategy` | Innovation strategy session with business model canvas and disruption analysis |
 | `/bmad-cis-problem-solving` | Systematic problem-solving using TRIZ, root cause analysis, and lateral thinking |
 | `/bmad-cis-storytelling` | Narrative crafting workshop for brand stories, product narratives, or presentations |
-| `/bmad-agent-cis-innovation-strategist` | Launch the Innovation Strategist agent |
-| `/bmad-agent-cis-brainstorming-coach` | Launch the Brainstorming Coach agent |
-| `/bmad-agent-cis-design-thinking-coach` | Launch the Design Thinking Coach agent |
-| `/bmad-agent-cis-storyteller` | Launch the Storyteller agent |
-| `/bmad-agent-cis-creative-problem-solver` | Launch the Creative Problem Solver agent |
-| `/bmad-agent-cis-presentation-master` | Launch the Presentation Master agent |
+| `/bmad-cis-agent-innovation-strategist` | Launch the Innovation Strategist agent |
+| `/bmad-cis-agent-brainstorming-coach` | Launch the Brainstorming Coach agent |
+| `/bmad-cis-agent-design-thinking-coach` | Launch the Design Thinking Coach agent |
+| `/bmad-cis-agent-storyteller` | Launch the Storyteller agent |
+| `/bmad-cis-agent-creative-problem-solver` | Launch the Creative Problem Solver agent |
+| `/bmad-cis-agent-presentation-master` | Launch the Presentation Master agent |
 
 ## Creative Methodologies
 

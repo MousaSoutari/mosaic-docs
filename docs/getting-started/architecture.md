@@ -26,6 +26,15 @@ Mosaic Setup (npx @mousasoutari/mosaic-setup)
 
 The BMAD Method provides the foundational methodology -- agents, workflows, and task orchestration. Mosaic adds Unity-specific agents, educational workflows, MCP server integration, and capture tooling on top.
 
+## Two-Layer Skill Model
+
+BMAD v6.2.2 installs agents and workflows as **skills** into `.claude/skills/`. Each skill is a directory containing a `SKILL.md` file. Mosaic edu additions install as **commands** into `.claude/commands/`. Both are invoked the same way in Claude Code -- via `/name`.
+
+| Layer | Location | Contains | Example |
+|-------|----------|----------|---------|
+| **BMAD skills** | `.claude/skills/` | Agents + workflows (directories with SKILL.md) | `/bmad-agent-pm`, `/bmad-create-prd` |
+| **Mosaic commands** | `.claude/commands/` | Edu-specific commands (markdown files) | `/edu-define-course`, `/edu-build-project` |
+
 ## Project Structure
 
 After running `npx @mousasoutari/mosaic-setup`, your project contains:
@@ -33,7 +42,7 @@ After running `npx @mousasoutari/mosaic-setup`, your project contains:
 ~~~
 your-project/
 ├── _bmad/                        # BMAD Method (standard)
-│   ├── core/                     # Core agents, tasks, workflows
+│   ├── core/                     # Core tasks, workflows
 │   ├── bmm/                      # Business Method Module (if selected)
 │   ├── gds/                      # Game Dev Studio (if selected)
 │   ├── cis/                      # Creative Intelligence Suite (if selected)
@@ -44,8 +53,8 @@ your-project/
 │       └── workflows/            # Course definition, build, pathway, tutorial
 ├── _bmad-output/                 # All generated artifacts
 ├── .claude/
-│   ├── commands/                 # Custom slash commands (15)
-│   ├── skills/                   # Custom skills (6)
+│   ├── skills/                   # BMAD skills -- agents + workflows (dirs with SKILL.md)
+│   ├── commands/                 # Mosaic edu commands (markdown files)
 │   └── settings.local.json       # Hook configuration
 ├── .mosaic/
 │   ├── config.json               # Installation config (profile, modules, paths)
@@ -56,7 +65,7 @@ your-project/
 ## Config Resolution
 
 Agents load config in priority order:
-1. **Project config** -- `_bmad/config.yaml` (user's custom settings, created by `/bmad-setup`)
+1. **Project config** -- `_bmad/config.yaml` (user's custom settings, created by `/bmad-init`)
 2. **Module defaults** -- defaults bundled with each BMAD module
 
 This means you configure once per project, and all agents respect your settings.

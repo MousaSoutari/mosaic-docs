@@ -16,7 +16,7 @@ Installed by: `npx @mousasoutari/mosaic-setup install --modules tea`
 
 | Field | Value |
 |-------|-------|
-| Command | `/bmad-agent-tea` |
+| Command | `/bmad-tea` |
 | Name | Murat |
 | Role | Master Test Architect |
 
@@ -26,16 +26,16 @@ Murat is a seasoned test architect who covers the full testing lifecycle. He can
 
 | Command | Description |
 |---------|-------------|
-| `/bmad-agent-tea` | Launch the Murat test architect agent |
-| `/bmad-tea-testarch-atdd` | Acceptance Test-Driven Development -- define acceptance criteria, generate test skeletons |
-| `/bmad-tea-testarch-test-design` | Risk-based test design -- identify risks, prioritize test cases, coverage matrix |
-| `/bmad-tea-testarch-framework` | Test framework scaffolding -- set up test infrastructure for your stack |
-| `/bmad-tea-testarch-automate` | Test automation strategy -- what to automate, tool selection, pyramid balance |
-| `/bmad-tea-testarch-ci` | CI/CD quality gates -- pipeline config, gate criteria, failure policies |
-| `/bmad-tea-testarch-trace` | Traceability matrix -- map requirements to tests to code |
-| `/bmad-tea-testarch-nfr` | Non-functional requirements assessment -- performance, security, scalability testing |
-| `/bmad-tea-testarch-test-review` | Test review -- evaluate test suite quality and coverage gaps |
-| `/bmad-tea-teach-me-testing` | Interactive testing education -- learn testing concepts through guided exercises |
+| `/bmad-tea` | Launch the Murat test architect agent |
+| `/bmad-testarch-atdd` | Acceptance Test-Driven Development -- define acceptance criteria, generate test skeletons |
+| `/bmad-testarch-test-design` | Risk-based test design -- identify risks, prioritize test cases, coverage matrix |
+| `/bmad-testarch-framework` | Test framework scaffolding -- set up test infrastructure for your stack |
+| `/bmad-testarch-automate` | Test automation strategy -- what to automate, tool selection, pyramid balance |
+| `/bmad-testarch-ci` | CI/CD quality gates -- pipeline config, gate criteria, failure policies |
+| `/bmad-testarch-trace` | Traceability matrix -- map requirements to tests to code |
+| `/bmad-testarch-nfr` | Non-functional requirements assessment -- performance, security, scalability testing |
+| `/bmad-testarch-test-review` | Test review -- evaluate test suite quality and coverage gaps |
+| `/bmad-teach-me-testing` | Interactive testing education -- learn testing concepts through guided exercises |
 
 ## Workflow Details
 

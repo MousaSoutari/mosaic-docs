@@ -9,7 +9,7 @@ import styles from './index.module.css';
 
 const stats = [
   { label: 'Modules', value: '7' },
-  { label: 'Agents', value: '30' },
+  { label: 'Agents', value: '26' },
   { label: 'Commands', value: '133' },
   { label: 'Workflows', value: '86+' },
 ];
@@ -19,7 +19,7 @@ const modules = [
     name: 'bmad-core',
     emoji: '🧙',
     description: 'Foundation module with setup, help, brainstorming, reviews, and workflow orchestration.',
-    agents: 1,
+    agents: 0,
     commands: 11,
   },
   {
@@ -47,7 +47,7 @@ const modules = [
     name: 'bmad-bmb',
     emoji: '🔧',
     description: 'BMAD Builder tools — create, edit, and validate agents, workflows, and modules.',
-    agents: 3,
+    agents: 2,
     commands: 15,
   },
   {
@@ -221,7 +221,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title="AI-Driven Development for Claude Code"
-      description="30 specialized agents, 133 commands, and 86+ workflows for Claude Code. Product management, game development, testing, creative intelligence, and education.">
+      description="26 specialized agents, 133 commands, and 86+ workflows for Claude Code. Product management, game development, testing, creative intelligence, and education.">
       <HomepageHeader />
       <main>
         <StatsSection />

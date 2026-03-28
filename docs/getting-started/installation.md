@@ -73,8 +73,8 @@ your-project/
 │       └── workflows/        # Course definition, build, pathway, tutorial
 ├── _bmad-output/             # All generated artifacts
 ├── .claude/
-│   ├── commands/             # Custom slash commands (15)
-│   ├── skills/               # Custom skills (6)
+│   ├── skills/               # BMAD skills (agents + workflows, invoked via /name)
+│   ├── commands/              # Mosaic edu commands (invoked via /name)
 │   └── settings.local.json   # Hooks
 ├── .mosaic/
 │   ├── config.json           # Installation config

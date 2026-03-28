@@ -6,17 +6,16 @@ description: BMAD Builder for creating agents, workflows, and modules
 
 # bmad-bmb
 
-**BMAD Builder** -- tools for creating, editing, and validating BMAD agents, workflows, and modules. This is the meta-module for extending the BMAD framework itself.
+**BMAD Builder** -- tools for creating, editing, and validating BMAD agents, workflows, and modules with 2 agents. This is the meta-module for extending the BMAD framework itself.
 
 Installed by: `npx @mousasoutari/mosaic-setup install --modules bmb`
 
-## Agents (3)
+## Agents (2)
 
 | Command | Name | Persona | Specialty |
 |---------|------|---------|-----------|
-| `/bmad-agent-bmb-agent-builder` | Bond | Agent Builder | Create and refine AI agent personas |
-| `/bmad-agent-bmb-workflow-builder` | Wendy | Workflow Builder | Design multi-step workflows |
-| `/bmad-agent-bmb-module-builder` | Morgan | Module Builder | Build complete BMAD modules |
+| `/bmad-agent-builder` | Bond | Agent Builder | Create and refine AI agent personas |
+| `/bmad-workflow-builder` | Wendy | Workflow Builder | Design multi-step workflows |
 
 ## Commands by Namespace (15)
 
@@ -44,8 +43,8 @@ Installed by: `npx @mousasoutari/mosaic-setup install --modules bmb`
 | `/bmad-bmb-edit-module` | Edit an existing module |
 | `/bmad-bmb-validate-module` | Validate module structure and dependencies |
 
-### Agents (3)
-All 3 agent commands listed in the agents table above.
+### Agents (2)
+All 2 agent commands listed in the agents table above.
 
 ## What You Can Build
 
@@ -71,7 +70,7 @@ Package agents and workflows into:
 
 ## Validation
 
-All three builders include validation commands that check:
+Both builders include validation commands that check:
 - Structural compliance with BMAD standards
 - Required fields and metadata
 - Cross-references between agents and workflows

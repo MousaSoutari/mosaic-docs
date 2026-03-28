@@ -7,7 +7,7 @@ description: AI-driven development methodology for Claude Code
 
 # Mosaic BMAD
 
-**30 specialized agents, 133 commands, and 86+ workflows** -- installed with a single command.
+**26 specialized agents, 86+ workflows, and 133 skills** -- installed with a single command.
 
 Mosaic BMAD brings the [BMad Method](https://github.com/bmad-code-org/BMAD-METHOD) (Better Method for AI-Driven Development) directly into Claude Code. Instead of a custom UI, Claude Code IS the editor -- with specialized AI agents for every role in your development process.
 
@@ -22,13 +22,13 @@ The installer sets up BMAD Method, adds Mosaic custom agents and workflows, conf
 
 ## What You Get
 
-| Module | Agents | Commands | For |
-|--------|--------|----------|-----|
-| **bmad-core** | 1 | 11 | Everyone -- setup, help, brainstorming, reviews |
+| Module | Agents | Skills | For |
+|--------|--------|--------|-----|
+| **bmad-core** | 0 | 11 | Everyone -- init, help, brainstorming, reviews |
 | **bmad-bmm** | 9 | 32 | Product teams -- PRDs, sprints, stories, code review |
 | **bmad-gds** | 7 | 31 | Game developers -- GDD, architecture, QA, playtesting |
 | **bmad-cis** | 6 | 10 | Creative teams -- innovation, design thinking, storytelling |
-| **bmad-bmb** | 3 | 15 | BMAD builders -- create agents, workflows, modules |
+| **bmad-bmb** | 2 | 15 | BMAD builders -- create agents, workflows |
 | **bmad-tea** | 1 | 10 | QA engineers -- ATDD, CI/CD, test design |
 | **bmad-edu** | 3 | 24 | Instructors -- course creation, IET tutorials |
 
@@ -44,7 +44,7 @@ claude                           # Open Claude Code
 ## Key Concepts
 
 - **Agents** -- AI personas with specific expertise (PM, developer, architect, etc.)
-- **Commands** -- Slash commands that trigger workflows (e.g., `/bmad-bmm-create-prd`)
+- **Skills** -- Slash commands that trigger workflows (e.g., `/bmad-create-prd`)
 - **Workflows** -- Multi-step processes with templates and decision trees
 - **Config Resolution** -- Project config overrides module defaults
 
