@@ -12,7 +12,7 @@ Mosaic BMAD ships as 7 focused modules. The installer sets up `bmad-core` plus a
 
 | Module | Agents | Commands | Primary Use Case |
 |--------|--------|----------|------------------|
-| [bmad-core](./bmad-core) | 0 | 11 | Foundation -- setup, help, brainstorming, reviews |
+| [bmad-core](./bmad-core) | 0 | 11 | Foundation -- init, help, brainstorming, reviews |
 | [bmad-bmm](./bmad-bmm) | 9 | 32 | Product development -- PRDs, sprints, stories |
 | [bmad-gds](./bmad-gds) | 7 | 31 | Game development -- GDD, architecture, playtesting |
 | [bmad-cis](./bmad-cis) | 6 | 10 | Creative work -- innovation, design thinking, storytelling |
@@ -20,7 +20,7 @@ Mosaic BMAD ships as 7 focused modules. The installer sets up `bmad-core` plus a
 | [bmad-tea](./bmad-tea) | 1 | 10 | Test engineering -- ATDD, CI/CD, test architecture |
 | [bmad-edu](./bmad-edu) | 3 | 24 | Education -- courses, tutorials, IET pathways |
 
-**Totals:** 26 agents, 133 commands
+**Totals:** 26 agents, 133 skills/commands (107 BMAD skills + 15 Mosaic edu commands + 11 shared)
 
 ## Which Modules Do I Need?
 

@@ -11,11 +11,11 @@ description: How Mosaic BMAD is structured
 Mosaic BMAD is built as a custom layer on top of the standard BMAD Method:
 
 ~~~
-BMAD Method (npx bmad-method install)
+BMAD Method (installed automatically by Mosaic, pinned to v6.2.2)
   └── Standard agents, workflows, tasks
 
 Mosaic Setup (npx @mousasoutari/mosaic-setup)
-  ├── Installs BMAD (above)
+  ├── Installs BMAD Method (pinned version)
   ├── Custom agents (Instructor, IET Builder, Code Pedagogy)
   ├── Custom skills (edu-capture, unity-context, preflight-check, etc.)
   ├── Custom hooks (post-compile, pre-play safety)

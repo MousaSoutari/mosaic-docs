@@ -24,7 +24,7 @@ The installer sets up BMAD Method, adds Mosaic custom agents and workflows, conf
 
 | Module | Agents | Skills | For |
 |--------|--------|--------|-----|
-| **bmad-core** | 0 | 11 | Everyone -- init, help, brainstorming, reviews |
+| **bmad-core** | 0 | 11 | Everyone -- init, help, brainstorming, reviews, distillator |
 | **bmad-bmm** | 9 | 32 | Product teams -- PRDs, sprints, stories, code review |
 | **bmad-gds** | 7 | 31 | Game developers -- GDD, architecture, QA, playtesting |
 | **bmad-cis** | 6 | 10 | Creative teams -- innovation, design thinking, storytelling |

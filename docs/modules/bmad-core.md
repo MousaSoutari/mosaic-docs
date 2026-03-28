@@ -6,11 +6,11 @@ description: Foundation module with init, help, brainstorming, and editorial rev
 
 # bmad-core
 
-**BMAD Core Platform** -- the foundation module required by all other BMAD modules. Provides project scaffolding, workflow orchestration, brainstorming, party-mode, and editorial review commands. Contains 0 agents and 10 commands.
+**BMAD Core Platform** -- the foundation module required by all other BMAD modules. Provides project scaffolding, workflow orchestration, brainstorming, party-mode, and editorial review commands. Contains 0 agents and 11 commands.
 
 Installed by: `npx @mousasoutari/mosaic-setup` (always included)
 
-## Commands (10)
+## Commands (11)
 
 > **Note:** The core module provides workflow orchestration through `/bmad-help` rather than a dedicated agent.
 
@@ -22,6 +22,7 @@ Installed by: `npx @mousasoutari/mosaic-setup` (always included)
 | `/bmad-party-mode` | Creative | Fun collaborative brainstorming with multiple agent perspectives |
 | `/bmad-index-docs` | Utility | Index project documentation for context |
 | `/bmad-shard-doc` | Utility | Shard large documents into manageable pieces |
+| `/bmad-distillator` | Utility | Lossless LLM-optimized document compression |
 | `/bmad-review-adversarial-general` | Review | Adversarial review -- find flaws and weaknesses |
 | `/bmad-review-edge-case-hunter` | Review | Hunt for edge cases and boundary conditions |
 | `/bmad-editorial-review-prose` | Review | Editorial review of prose quality and clarity |
